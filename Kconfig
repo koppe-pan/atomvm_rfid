@@ -1,0 +1,8 @@
+menu "ATOMVM_RFID Configuration"
+
+config AVM_RFID_ENABLE
+    bool  "Enable AtomVM RFID driver"
+    default y
+    help
+        Use this parameter to enable or disable the AtomVM RFID driver.
+endmenu
